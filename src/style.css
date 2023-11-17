@@ -1,0 +1,25 @@
+.container{
+    position: relative;
+    background-color: #458FF6;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+.textBlock{ 
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 700;
+        font-style: normal;
+        color: #FFF;
+}
+.textTra{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #233348;
+    font-style: normal;
+}
+        
+       
