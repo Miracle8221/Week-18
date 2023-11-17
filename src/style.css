@@ -21,5 +21,50 @@
     color: #233348;
     font-style: normal;
 }
+.img{
+    width: 8.2rem;
+    height: 7.1rem;
+    position: absolute;
+    top: 160px;
+    left: -30px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.imgs{
+    width: 693px;
+    height: 598px;
+}
+.heading{
+    color: #000;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    width: 80%;
+}
+.heroSection{
+    width: 35%;
+}
+.para{
+    color: #7D7987;
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    width: 25rem;
+}
+.btn{
+    background-color: #458FF6;
+    border-radius: 3.4rem;
+    width: 12.5rem;
+    height: 3.5rem;
+}
+
+
         
        
