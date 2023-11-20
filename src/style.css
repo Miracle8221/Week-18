@@ -64,6 +64,121 @@
     width: 12.5rem;
     height: 3.5rem;
 }
+.serviceD{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicesHead{
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 3.5rem;
+}
+.line{
+    width: 3.5rem;
+    height: 0.125rem;
+    border-radius: 0.3125rem;
+    background: #000;
+    margin-top: 1.6rem;
+    
+}
+.servicePara{
+    color: #7D7987;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.875rem;
+    margin-top: 2.06rem;
+    width: 952px; 
+}
+.serviceImage{
+    width: 937.951px;
+    height: 671.352px;
+    fill: linear-gradient(176deg, #F3F7FF -10.48%, #DEEEFE 92.66%);
+    position: absolute;
+    top: 52rem;
+    left: -200px;
+    z-index: -2;
+    /* margin-right: 747.49px; */
+
+}
+.serviceframe{
+    width: 5.74863rem;
+    height: 5.625rem;
+    margin: 54px 0 19.5px 38px;
+}
+.pharmacyframe{
+    width: 3.86606rem;
+    height: 5.3125rem;
+    margin: 54px 0 24.5px 38px;
+}
+.consultationframe{
+    width: 4.20575rem;
+    height: 5.9375rem;
+    margin: 54px 0 24.41px 38px;
+}
+.detailsframe{
+    width: 4.19219rem;
+    height: 5.9375rem;
+    margin: 54px 0 25.41px 38px;
+}
+.emergencyframe{
+    width: 5rem;
+    height: 4.44719rem;
+    margin: 54px 0 36.25px 38px;
+}
+.trackingframe{
+    width: 4.33888rem;
+    height: 5.9375rem;
+    margin: 54px 0 19.5px 38px;
+}
+.frameHeading{
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    
+    margin: 0 0 0 38px;
+}
+.framePara{
+    color: #7D7987;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75rem;
+    width: 16.625rem;
+    margin: 1px 0 0 38px;
+}
+.frame{
+    width: 21.875rem;
+    height: 22.125rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+.serviceAll{
+    display: flex;
+    gap: 2.25rem;
+    width: 90%;
+    margin: 80px 90px 0 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.serviceInner{
+    margin-right: 39px;
+}
+.element{
+    width: 131.581px;
+    height: 115px;
+    opacity: 0.3;
+    position: absolute;
+    top: 73rem;
+    left: 78rem;
+    z-index: -2;
+}
+
 
 
         
