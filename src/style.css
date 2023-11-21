@@ -178,6 +178,61 @@
     left: 78rem;
     z-index: -2;
 }
+.heathHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 142px;
+}
+.heathImage{
+    width: 650px;
+    height: 477px;
+}
+.care{
+    width: 25%;
+}
+.heathCare{
+    color: #000;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    width: 30.065rem;
+}
+.heathPara{
+    color: #7D7987;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.875rem;
+    margin: 31px 0 37px 0;
+    /* width: 28.125rem; */
+}
+.appImg{
+    position: absolute;
+    width: 131.581px;
+    height: 115px;
+    left: 86.7rem;
+    /* opacity: 0.3; */
+}
+.heaths{
+    display: flex;
+    gap: 70px;
+    margin-left: 20%;
+    margin-top: 265px;
+}
+.heathImages{
+    width: 665px;
+    height: 434px;
+}
+.heathCares{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+
+}
 
 
 
