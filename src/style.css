@@ -231,8 +231,96 @@
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
-
 }
+.customer{
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    margin-top: 266px;
+    
+}
+.lines{
+    width: 3.5rem;
+    height: 0.125rem;
+    border-radius: 0.3125rem;
+    background: #000;
+    /* margin-top: 1.56rem; */
+    margin: 0 auto;
+}
+    
+.customerHeading{
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin: 64px 0 25px 0;
+}
+.photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid lightgray;
+    background: url('../src/assets/Images/my photo.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* background-color: lightgray; */
+    background-position: 50%;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photoHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    margin-top: 4.81rem;
+}
+.photoPara{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 420px;
+}
+.photoFlex{
+    display: flex;
+    gap: 29px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 89px;
+    margin-top: 42px;
+}
+.iconsImage{
+    width: 94px;
+    height: 10px;
+}
+.bx-left-arrow-alt{
+    width: 31.429px;
+    height: 20px;
+    opacity: 0.4;
+}
+.customerImage{
+    position: absolute;
+    left: 82%;
+    top: 425%;
+    /* z-index: -2; */
+    width: 131.581px;
+    height: 115px;
+    
+    /* opacity: 0.26; */
+}
+
 
 
 

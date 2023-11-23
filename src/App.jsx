@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Service from './components/Service'
 import Heath from './components/Heath'
 import Testimonial from './components/Testimonial'
+import Article from './components/Article'
   
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Service />
     <Heath />
     <Testimonial />
+    <Article />
     </>
   )
 }
