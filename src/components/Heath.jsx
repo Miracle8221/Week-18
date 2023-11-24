@@ -3,7 +3,7 @@ import Button from './Button'
 
 function Heath() {
   return (
-    <div>
+    <div className='heathsHead'>
         <div className='heathHeading'>
             <div>
                 <img src="./src/assets/Images/image3.png" className='heathImage' alt="" />
