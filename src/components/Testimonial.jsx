@@ -1,5 +1,7 @@
 import React from 'react'
-
+import element2 from "../assets/element2.png"
+import element from "../assets/element.png"
+import slider from "../assets/slider.png"
 function Testimonial() {
   return (
     <div>
@@ -20,18 +22,17 @@ function Testimonial() {
                     </p>
 
                 </div>
-                    <img src="./src/assets/Images/element2.png" className='customerImage' alt="" />
-                    <img src="./src/assets/Images/element.png" className='customerImages' alt="" />
+                    <img src={element2} className='customerImage' alt="Image description" />
+                    <img src={element} className='customerImages' alt="Image description" />
             </div>
             <div className='icons'>
             <i className='bx bx-left-arrow-alt'></i>
-            <img src="./src/assets/Images/slider.png"  className='iconsImage'alt="" />
+            <img src={slider}  className='iconsImage'alt="Image description" />
             <i className='bx bx-right-arrow-alt' ></i>
             </div>
         </div>
-        
     </div>
   )
 }
-
 export default Testimonial
+        

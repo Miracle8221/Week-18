@@ -5,6 +5,7 @@ import Service from './components/Service'
 import Heath from './components/Heath'
 import Testimonial from './components/Testimonial'
 import Article from './components/Article'
+import Footer from './components/Footer'
   
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Heath />
     <Testimonial />
     <Article />
+    <Footer />
     </>
   )
 }

@@ -21,6 +21,7 @@
     color: #233348;
     font-style: normal;
 }
+
 .img{
     width: 8.2rem;
     height: 7.1rem;
@@ -46,6 +47,9 @@
     line-height: 3.5rem;
     width: 80%;
 }
+.home{
+    margin-top: 84px;
+}
 .heroSection{
     width: 35%;
 }
@@ -63,6 +67,8 @@
     border-radius: 3.4rem;
     width: 12.5rem;
     height: 3.5rem;
+    display: block;
+    margin-top: 20px
 }
 .serviceD{
     display: flex;
@@ -74,6 +80,9 @@
     font-weight: 700;
     font-style: normal;
     line-height: 3.5rem;
+}
+.serve{
+    margin-top: 192px;
 }
 .line{
     width: 3.5rem;
@@ -97,7 +106,7 @@
     height: 671.352px;
     fill: linear-gradient(176deg, #F3F7FF -10.48%, #DEEEFE 92.66%);
     position: absolute;
-    top: 52rem;
+    top: 68rem;
     left: -200px;
     z-index: -2;
     /* margin-right: 747.49px; */
@@ -267,7 +276,7 @@
     height: 120px;
     border-radius: 50%;
     border: 4px solid lightgray;
-    background: url('../src/assets/Images/my photo.png');
+    background: url('../src/assets/my photo.png');
     object-fit: cover;
     background-repeat: no-repeat;
     /* background-color: lightgray; */
@@ -326,21 +335,72 @@
     justify-content: center;
     align-items: center;
     gap: 2.12rem;
+    margin-top: 72px;
 }
 .elementI{
     position: absolute;
     left: 68.5%;
-    top: 560%;
+    top: 610%;
     z-index: -2;
 }
 .articleFrame{
     position: absolute;
     left: 13%;
-    top: 570%;
+    top: 615%;
     z-index: -2;
 }
 .articleHeading{
     margin-top: 277px;
+}
+.footerBack{
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    width: 100%;
+    height: 432px;
+    margin-top: 201px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.footerIcon{
+    display: flex;
+    gap: 12px;
+}
+.trafalgarPara{
+    width: 350px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 17px 0 31px 0;
+}
+.footerText{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.footerPara{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+.footerImage{
+    position: absolute;
+    top: 770%;
+    width: 131.581px;
+    height: 115px;
+    opacity: 0.26;
+}
+.footerImages{
+    position: absolute;
+    top: 720%;
+    left: 85%;
+    z-index: -2;
 }
 
 

@@ -1,6 +1,10 @@
 import React from 'react'
 import Button from './Button'
-
+import imgs from "../assets/image5.png"
+import image6 from "../assets/image6.png"
+import image7 from "../assets/image7.png"
+import element1 from "../assets/element1.svg"
+import element from "../assets/element.png"
 
 function Article() {
   return (
@@ -12,7 +16,7 @@ function Article() {
         <div className='article'>
         <div className="max-w-sm w-80 bg-white border  border-gray-200 rounded-2xl shadow-lg shadow-blue-500/50 dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-                <img className="rounded-t-lg" src="./src/assets/Images/image5.png" alt="" />
+                <img className="rounded-t-lg" src={imgs} alt="Image description" />
             </a>
         <div className="p-5">
             <h5 className="mb-2 mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Disease detection, check up in the laboratory</h5>
@@ -28,7 +32,7 @@ function Article() {
         </div>
         <div className="max-w-sm w-80 bg-white border  border-gray-200 rounded-2xl shadow-lg shadow-blue-500/50 dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-                <img className="rounded-t-lg" src="./src/assets/Images/image6.png" alt="" />
+                <img className="rounded-t-lg" src={image6} alt="Image description" />
             </a>
             <div className="p-5">
                 <h5 className="mb-2 mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Disease detection, check up in the laboratory</h5>
@@ -43,7 +47,7 @@ function Article() {
             </div>
         <div className="max-w-sm w-80 bg-white border  border-gray-200 rounded-2xl shadow-lg shadow-blue-500/50 dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-            <img className="rounded-t-lg" src="./src/assets/Images/image7.png" alt="" />
+            <img className="rounded-t-lg" src={image7} alt="Image description" />
         </a>
         <div className="p-5">
                 <h5 className="mb-2 mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Disease detection, check up in the laboratory</h5>
@@ -58,11 +62,10 @@ function Article() {
         </div>
         </div>
     </div>
-    <img src="./src/assets/Images/element1.svg" className='elementI' alt="" />
-    <img src="./src/assets/Images/element.png" className='articleFrame' alt="" />
-    <Button>learn more </Button>
+    <img src={element1} className='elementI' alt="Image description" />
+    <img src={element} className='articleFrame' alt="Image description" />
+    <Button  text="View all" margin="auto" marginTop="30px"/>
     </div>
   )
 }
-
 export default Article

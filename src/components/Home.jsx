@@ -1,11 +1,12 @@
 import React from 'react'
 import Button from './Button'
-
+import image from "../assets/element.svg"
+import img from "../assets/image1.png"
 function Home() {
   return (
-    <div>
+    <div className='home'>
         <div>
-            <img src="./src/assets/Images/element.svg" className='img' alt="" />
+            <img src={image} className='img' alt="image description" />
         </div>
         <div className='section'>
         <div className='heroSection'>
@@ -13,10 +14,10 @@ function Home() {
             <p className='para'>
             Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
             </p>
-            <Button className='btns'>Consult today</Button>
+            <Button color="" text="consult today"  marginTop="30px"/>
         </div>
         <div>
-            <img src="./src/assets/Images/image1.png" className='imgs' alt="" />
+            <img src={img} className='imgs' alt="Image description" />
         </div>
         </div>
     </div>
