@@ -1,0 +1,410 @@
+.container{
+    position: relative;
+    background-color: #458FF6;
+    height: 41px;
+    width: 41px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+.textBlock{ 
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 700;
+        font-style: normal;
+        color: #FFF;
+}
+.textTra{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #233348;
+    font-style: normal;
+}
+
+.img{
+    width: 8.2rem;
+    height: 7.1rem;
+    position: absolute;
+    top: 160px;
+    left: -30px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.imgs{
+    width: 693px;
+    height: 598px;
+}
+.heading{
+    color: #000;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    width: 80%;
+}
+.home{
+    margin-top: 84px;
+}
+.heroSection{
+    width: 35%;
+}
+.para{
+    color: #7D7987;
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    width: 25rem;
+}
+.btn{
+    background-color: #458FF6;
+    border-radius: 3.4rem;
+    width: 12.5rem;
+    height: 3.5rem;
+    display: block;
+    margin-top: 20px
+}
+.serviceD{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicesHead{
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 3.5rem;
+}
+.serve{
+    margin-top: 192px;
+}
+.line{
+    width: 3.5rem;
+    height: 0.125rem;
+    border-radius: 0.3125rem;
+    background: #000;
+    margin-top: 1.6rem;
+    
+}
+.servicePara{
+    color: #7D7987;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.875rem;
+    margin-top: 2.06rem;
+    width: 952px; 
+}
+.serviceImage{
+    width: 937.951px;
+    height: 671.352px;
+    fill: linear-gradient(176deg, #F3F7FF -10.48%, #DEEEFE 92.66%);
+    position: absolute;
+    top: 68rem;
+    left: -200px;
+    z-index: -2;
+    /* margin-right: 747.49px; */
+
+}
+.serviceframe{
+    width: 5.74863rem;
+    height: 5.625rem;
+    margin: 54px 0 19.5px 38px;
+}
+.pharmacyframe{
+    width: 3.86606rem;
+    height: 5.3125rem;
+    margin: 54px 0 24.5px 38px;
+}
+.consultationframe{
+    width: 4.20575rem;
+    height: 5.9375rem;
+    margin: 54px 0 24.41px 38px;
+}
+.detailsframe{
+    width: 4.19219rem;
+    height: 5.9375rem;
+    margin: 54px 0 25.41px 38px;
+}
+.emergencyframe{
+    width: 5rem;
+    height: 4.44719rem;
+    margin: 54px 0 36.25px 38px;
+}
+.trackingframe{
+    width: 4.33888rem;
+    height: 5.9375rem;
+    margin: 54px 0 19.5px 38px;
+}
+.frameHeading{
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    
+    margin: 0 0 0 38px;
+}
+.framePara{
+    color: #7D7987;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75rem;
+    width: 16.625rem;
+    margin: 1px 0 0 38px;
+}
+.frame{
+    width: 21.875rem;
+    height: 22.125rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+.serviceAll{
+    display: flex;
+    gap: 2.25rem;
+    width: 90%;
+    margin: 80px 90px 0 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.serviceInner{
+    margin-right: 39px;
+}
+.element{
+    width: 131.581px;
+    height: 115px;
+    opacity: 0.3;
+    position: absolute;
+    top: 73rem;
+    left: 78rem;
+    z-index: -2;
+}
+.heathHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 142px;
+    /* margin-top: 220px; */
+}
+.heathsHead{
+    margin-top: 220px;
+}
+.heathImage{
+    width: 650px;
+    height: 477px;
+}
+.care{
+    width: 25%;
+}
+.heathCare{
+    color: #000;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.5rem;
+    width: 30.065rem;
+}
+.heathPara{
+    color: #7D7987;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.875rem;
+    margin: 31px 0 37px 0;
+    /* width: 28.125rem; */
+}
+.appImg{
+    position: absolute;
+    width: 131.581px;
+    height: 115px;
+    left: 86.7rem;
+    /* opacity: 0.3; */
+}
+.heaths{
+    display: flex;
+    gap: 70px;
+    margin-left: 20%;
+    margin-top: 265px;
+}
+.heathImages{
+    width: 665px;
+    height: 434px;
+}
+.heathCares{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+.customer{
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    margin-top: 266px;
+    
+}
+.lines{
+    width: 3.5rem;
+    height: 0.125rem;
+    border-radius: 0.3125rem;
+    background: #000;
+    /* margin-top: 1.56rem; */
+    margin: 0 auto;
+}
+    
+.customerHeading{
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin: 64px 0 25px 0;
+}
+.photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid lightgray;
+    background: url('../src/assets/my photo.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* background-color: lightgray; */
+    background-position: 50%;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photoHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    margin-top: 4.81rem;
+}
+.photoPara{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 420px;
+}
+.photoFlex{
+    display: flex;
+    gap: 29px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.icons{
+    display: flex;
+    gap: 89px;
+    margin-top: 42px;
+}
+.iconsImage{
+    width: 94px;
+    height: 10px;
+}
+.bx-left-arrow-alt{
+    width: 31.429px;
+    height: 20px;
+    opacity: 0.4;
+}
+.customerImage{
+    position: absolute;
+    left: 82%;
+    top: 425%;
+    width: 131.581px;
+    height: 115px;
+}
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.12rem;
+    margin-top: 72px;
+}
+.elementI{
+    position: absolute;
+    left: 68.5%;
+    top: 610%;
+    z-index: -2;
+}
+.articleFrame{
+    position: absolute;
+    left: 13%;
+    top: 615%;
+    z-index: -2;
+}
+.articleHeading{
+    margin-top: 277px;
+}
+.footerBack{
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    width: 100%;
+    height: 432px;
+    margin-top: 201px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.footerIcon{
+    display: flex;
+    gap: 12px;
+}
+.trafalgarPara{
+    width: 350px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 17px 0 31px 0;
+}
+.footerText{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.footerPara{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+.footerImage{
+    position: absolute;
+    top: 770%;
+    width: 131.581px;
+    height: 115px;
+    opacity: 0.26;
+}
+.footerImages{
+    position: absolute;
+    top: 720%;
+    left: 85%;
+    z-index: -2;
+}
+
+
+
+
+        
+       
